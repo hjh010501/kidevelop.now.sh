@@ -7,7 +7,7 @@ class KakaoTalk extends React.Component {
     }
     render() {
         return (
-            "<h1>zz</h1>"
+            "Loading...🥳"
            );
     }
   }
