@@ -1,12 +1,15 @@
 import React from 'react';
 import './scss/main.scss';
+import Background from '../components/background';
 
-const Main = () => {
-    return (
-        <div>
-            😀ㄱㄷ ㅋㅋ
-        </div>
-    );
-};
+class Main extends React.Component {
+    render() {
+        return (
+            <React.Fragment>
+                <Background></Background>
+            </React.Fragment>
+        );
+    }
+  }
 
-export default Main;
+  export default Main;
