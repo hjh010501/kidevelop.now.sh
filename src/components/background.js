@@ -1,6 +1,5 @@
 import React from 'react';
 import BackText from './backText'
-import styled from 'styled-components';
 
 
 class Background extends React.Component {

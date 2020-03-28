@@ -9,11 +9,11 @@ const Styled = styled.div`
         font-weight: 800;
         text-overflow: none;
         opacity: .5;
-        letter-spacing: -5px;
+        letter-spacing: -0.04em;
         line-height: 12.5vh;
         font-family: 'Noto Sans KR';
         transition: 1s;
-
+        user-select: none;
         &:hover {
             color: white;
             opacity: 1;
